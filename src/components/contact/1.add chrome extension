@@ -1,0 +1,27 @@
+1.add chrome extension
+
+npm i redux
+
+npm i react-redux 
+
+npm i redux-devtools-extension
+
+npm i bootstrap
+
+npm install node-sass@4.14.1
+
+npm i react-avatar
+
+npm i react-router-dom
+
+
+
+https://getbootstrap.com/docs/4.4/getting-started/theming/
+https://jsonplaceholder.typicode.com/users
+https://www.w3schools.com/icons/default.asp
+
+json2ts.com
+
+jsonformatter.curioous.com
+
+import tab
