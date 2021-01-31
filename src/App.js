@@ -7,7 +7,7 @@ import EditContact from './components/contact/EditContact';
 
 import Contacts from './components/contact/Contacts';
 import Navbar from './components/layouts/Navbar';
-import store from "./store";
+import store from "./store/store";
 
 import './styles/App.scss';
 

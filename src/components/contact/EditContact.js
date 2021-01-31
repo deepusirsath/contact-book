@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import shortid from 'shortid';
 import { useParams } from 'react-router-dom';
 
-import { getContact, updateContact } from "../../actions/contactAction";
+import {
+    getContact,
+    updateContact
+} from "../../store/actions/contactAction";
 
 const EditContact = () => {
     let { id } = useParams();
@@ -69,10 +71,9 @@ const EditContact = () => {
                     </div>
                     <button className="btn btn-warning">
                         Update Contact
-                        </button>
+                    </button>
                 </form>
             </div>
-
         </div>
     )
 }
