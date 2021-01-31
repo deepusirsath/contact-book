@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from "react-redux";
-import { selectAllContact, clearAllContact, deleteAllContact} from '../../actions/contactAction';
+
+import {
+    selectAllContact,
+    clearAllContact,
+    deleteAllContact
+} from '../../store/actions/contactAction';
 import Contact from './Contact'
 
 const Contacts = () => {
@@ -8,13 +13,12 @@ const Contacts = () => {
     const [selectAll, setSelectAll] = useState(false);
     const contacts = useSelector((state) => state.contacts.contacts);
     const selectedContacts = useSelector((state) => state.contacts.selectedContacts)
-    console.log(contacts);
 
     useEffect(() => {
         if (selectAll) {
             dispatch(selectAllContact(contacts.map((contact) => contact.id)))
         }
-        else{
+        else {
             dispatch(clearAllContact())
         }
     }, [selectAll])
@@ -24,9 +28,9 @@ const Contacts = () => {
             {
                 selectedContacts.length > 0 ? (
                     <button
-                     className="btn btn-danger mb-3"
-                     onClick={()=>dispatch(deleteAllContact())}>Delete All</button>
-                ):null
+                        className="btn btn-danger mb-3"
+                        onClick={() => dispatch(deleteAllContact())}>Delete All</button>
+                ) : null
             }
             <div>
                 <table className="table shawdow">
@@ -54,16 +58,13 @@ const Contacts = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {
-                            contacts.map((contact) => (
-                                <Contact
-                                    contact={contact}
-                                    key={contact.id}
-                                    selectAll={selectAll}
-
-                                />
-                            ))}
-
+                        {contacts.map((contact) => (
+                            <Contact
+                                contact={contact}
+                                key={contact.id}
+                                selectAll={selectAll}
+                            />
+                        ))}
                     </tbody>
                 </table>
             </div>
