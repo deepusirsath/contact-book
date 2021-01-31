@@ -292,7 +292,7 @@ export const contactReducer = (state = initialState, action) => {
         case DELETE_SELECTED_CONTACT:
                 return {
                     ...state,
-                    Contacts: []
+                    contacts: []
                 }
         default:
             return state;

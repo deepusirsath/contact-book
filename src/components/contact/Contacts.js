@@ -22,7 +22,7 @@ const Contacts = () => {
     return (
         <div>
             {
-                selectedContacts.length >0 ? (
+                selectedContacts.length > 0 ? (
                     <button
                      className="btn btn-danger mb-3"
                      onClick={()=>dispatch(deleteAllContact())}>Delete All</button>
