@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/contact-book/static/css/main.337c088d.chunk.css",
-    "main.js": "/contact-book/static/js/main.525a415f.chunk.js",
-    "main.js.map": "/contact-book/static/js/main.525a415f.chunk.js.map",
+    "main.js": "/contact-book/static/js/main.7537095e.chunk.js",
+    "main.js.map": "/contact-book/static/js/main.7537095e.chunk.js.map",
     "runtime-main.js": "/contact-book/static/js/runtime-main.0b5cb193.js",
     "runtime-main.js.map": "/contact-book/static/js/runtime-main.0b5cb193.js.map",
     "static/js/2.6c8c764e.chunk.js": "/contact-book/static/js/2.6c8c764e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0b5cb193.js",
     "static/js/2.6c8c764e.chunk.js",
     "static/css/main.337c088d.chunk.css",
-    "static/js/main.525a415f.chunk.js"
+    "static/js/main.7537095e.chunk.js"
   ]
 }
