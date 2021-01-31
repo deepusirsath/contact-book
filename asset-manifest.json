@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/contact-book/static/css/main.337c088d.chunk.css",
+    "main.js": "/contact-book/static/js/main.525a415f.chunk.js",
+    "main.js.map": "/contact-book/static/js/main.525a415f.chunk.js.map",
+    "runtime-main.js": "/contact-book/static/js/runtime-main.0b5cb193.js",
+    "runtime-main.js.map": "/contact-book/static/js/runtime-main.0b5cb193.js.map",
+    "static/js/2.6c8c764e.chunk.js": "/contact-book/static/js/2.6c8c764e.chunk.js",
+    "static/js/2.6c8c764e.chunk.js.map": "/contact-book/static/js/2.6c8c764e.chunk.js.map",
+    "static/js/3.9bb472d3.chunk.js": "/contact-book/static/js/3.9bb472d3.chunk.js",
+    "static/js/3.9bb472d3.chunk.js.map": "/contact-book/static/js/3.9bb472d3.chunk.js.map",
+    "index.html": "/contact-book/index.html",
+    "static/css/main.337c088d.chunk.css.map": "/contact-book/static/css/main.337c088d.chunk.css.map",
+    "static/js/2.6c8c764e.chunk.js.LICENSE.txt": "/contact-book/static/js/2.6c8c764e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b5cb193.js",
+    "static/js/2.6c8c764e.chunk.js",
+    "static/css/main.337c088d.chunk.css",
+    "static/js/main.525a415f.chunk.js"
+  ]
+}
